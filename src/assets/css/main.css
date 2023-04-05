@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#app {
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 95vw;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 90vw;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 85vw;
+  }
+}
