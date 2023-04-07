@@ -11,11 +11,6 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
       '2xl': '1536px'
-    },
-    colors: {
-      primaryFe: '#0C4A6E',
-      secondaryFe: '#F8FAFC',
-      terciaryFe: '#E5E7EB'
     }
   },
   plugins: [require('@tailwindcss/forms'), require('daisyui')],

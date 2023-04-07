@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primaryFe text-secondaryFe h-24 z-10 shadow-lg sticky top-0">
+  <div class="bg-[#0C4A6E] text-[#F8FAFC] h-24 z-10 shadow-lg sticky top-0">
     <div class="container navbar flex justify-between items-center h-24">
       <div class="flex-1">
         <RouterLink :to="{ name: 'home' }">
@@ -25,7 +25,7 @@
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </RouterLink>
-            <ul class="rounded-none bg-primaryFe -mx-8">
+            <ul class="rounded-none bg-[#0C4A6E] -mx-8">
               <div class="h-20 w-52 px-8 border-t border-t-[#B9E9FF] hover:bg-[#1E293B]">
                 <li class="h-20 rounded-none">
                   <a>¿Qué creemos?</a>
@@ -52,7 +52,7 @@
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </RouterLink>
-            <ul class="rounded-none bg-primaryFe -mx-8">
+            <ul class="rounded-none bg-[#0C4A6E] -mx-8">
               <div class="h-20 w-[270px] px-8 border-t border-t-[#B9E9FF] hover:bg-[#1E293B]">
                 <li class="h-20 rounded-none">
                   <a>¿Qué esperar?</a>
@@ -83,7 +83,7 @@
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </RouterLink>
-            <ul class="rounded-none bg-primaryFe -mx-8">
+            <ul class="rounded-none bg-[#0C4A6E] -mx-8">
               <div class="h-20 w-64 px-8 border-t border-t-[#B9E9FF] hover:bg-[#1E293B]">
                 <li class="h-20 rounded-none">
                   <a>Calendario de eventos</a>

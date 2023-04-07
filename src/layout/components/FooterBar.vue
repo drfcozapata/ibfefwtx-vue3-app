@@ -1,5 +1,5 @@
 <template>
-  <footer class="w-full block bg-primaryFe text-secondaryFe">
+  <footer class="w-full block bg-[#0C4A6E] text-[#F8FAFC]">
     <div class="footer">
       <div class="flex flex-col gap-7 justify-center text-[15px] footer__left">
         <RouterLink :to="{ name: 'about' }"
